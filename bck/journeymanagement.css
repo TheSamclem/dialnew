@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+.navbar {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+
+}
+
+.nav-link:hover {
+    color: rgb(168, 168, 168) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+p {
+    text-align: left !important;
+}
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+
+
+
+/* Header Style  */
+.header {
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.header img {
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+.enterprise {
+    position: absolute;
+    top: 0;
+}
+
+
+.header h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+}
+
+.header p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify !important;
+}
+
+/* Headter Style Ends */
+
+
+/* Streamline Segment Style */
+.streamline h3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.streamline p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Streamline Segment Style */
+
+/* Real Time */
+.real-time h3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.real-time p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.real-time li {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Real Time */
+
+/* Feature of App */
+.safety-app h2 { 
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+ 
+ }
+ 
+ .safety-app i {
+     color: rgb(241, 241, 241);
+ }
+ 
+ 
+ .safety-feature ul{
+     list-style-type: none;
+     text-align: right !important;
+     line-height: 25px;
+     color: white;
+ 
+ }
+
+ .safety-feature p {
+    text-align: right !important;
+ }
+ 
+ .safety-feature-two ul {
+     list-style-type: none;
+     text-align: left;
+     line-height: 25px;
+     color: white;
+ }
+/* Feature of App */
+
+
+
+
+
+
+
+
+
+
+
+/* Path */
+
+.path p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+}
+
+.path ul {
+  list-style-type: none;
+}
+
+
+.path li {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Path */
+
+
+
+
+/* Ehnace */
+.enhance h3 {
+    color: white;
+    line-height: 40px;
+}
+
+.enhance p {
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.our-panic p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.our-panic li {
+    font-size: 17px;
+}
+
+/* Ehnace */
+
+
+
+
+
+
+
+
+.faq-section{
+    min-height: 60vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title {
+    font-size: 25px;
+    margin: 2rem 0rem;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.question h3 {
+     font-size: 20px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+
+.faq.active i {
+    transform: rotate(180deg);
+}
+
+i {
+    transition: transform 0.5s ease-in;
+}
+
+
+
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+        
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    body {
+        overflow-x: hidden !important; 
+     
+       
+    }
+
+    p {
+        text-align: left !important;
+        font-size: 1rem !important;
+        line-height: 25px !important;
+    }
+    
+    h1 {
+        font-size: 23px !important;
+    }
+
+
+    .header h1 {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+    }
+    
+    .header p {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        padding-top: 20px;
+        text-align: justify;
+        line-height: 36px;
+    }
+
+    .streamline h3 {
+        font-size: 24px;
+    }
+
+    .real-time h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+
+    .streamline p {
+        font-size: 14px !important;
+    }
+
+    .safety-app h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .enhance h3 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: bold !important;
+    }
+
+    .enhance p {
+        font-size: 13px !important;
+    }
+
+    .our-panic img {
+        width: 100% !important;
+        height: 650px !important;
+    }
+
+    .our-panic p {
+        font-size: 13px !important;
+    }
+
+
+    #video {
+
+        width: 300px !important;
+        height: 200px !important;
+    }
+
+    .youtube {
+        padding: 0 !important;
+       
+    }
+
+    
+    #faq-three {
+        width: 300px !important;
+    }
+     
+    #faq-four {
+        width: 300px !important;
+    }
+
+    #faq-six{
+        width: 300px !important;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+    
+    .add {
+        display: flex !important;
+        flex-direction: column !important;
+        padding-top: 20px;
+    }
+    
+    .add div {
+        padding-left: 20px;
+    }
+       
+    
+    .add p {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+ 
+    #faq-three {
+        width: 610px !important;
+    }
+     
+    #faq-four {
+        width: 610px !important;
+    }
+
+    #faq-six{
+        width: 610px !important;
+    }
+
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
