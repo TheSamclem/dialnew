@@ -17,12 +17,23 @@ body {
 
 #read-mor, #read-less, #show-mor, #show-les, #open-les, #open-mor, #track-les, #track-mor, #lib-mor, #lib-les, #plume-mor, #plume-les {
     color: red;
-    margin-right: 10%;
 }
+
+/* #show-mor {
+    margin-right: 30%;
+} */
+
+/* #open-mor, #open-les {
+    margin-right: 20%;
+} */
+
+/* #track-mor, #track-les {
+    margin-right: 27%;
+} */
 
 #dial, #secure {
     overflow: hidden;
-    height: 130px;
+    height: 16vh;
 }
 
 #dial {
@@ -31,14 +42,29 @@ body {
 
 #threat, #track {
     overflow: hidden;
-    height: 170px;
+    height: 20vh;
 }
 
 #plume, #library{
     overflow: hidden;
-    height: 158px;
+    height: 19vh;
 }
 
+#plume-les, #plume-mor {
+    margin-right: 54%;
+}
+
+#plume-les {
+    margin-right: 0;
+}
+/* 
+#lib-les, #lib-mor {
+    margin-right: 15%;
+} */
+
+#lib-les {
+    margin-right: 0;
+}
 
 /* Navigation bar Style start */
 .navbar {
@@ -115,14 +141,14 @@ body {
 } 
 
 .header-container h1 {
-    color: yellow !important;
+    color: white !important;
     font-family: 'Montserrat', serif !important;
     font-weight: bold;
     font-size: 48px !important;
 }
 
 .header-container p {
-    color: yellow;
+    color: white;
     font-size: 20px;
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -133,8 +159,8 @@ body {
 
 /* Statement style */
 .statement {
-    background-color: yellow !important;
-    color: black !important;
+    background-color: white !important;
+    color: white !important;
     font-family: 'Montserrat', sans-serif;
 }
 /* Statement style */
@@ -150,7 +176,7 @@ body {
 
 .unveiling h3 {
     font-size: 35px !important;
-    color: yellow !important;
+    color: navy !important;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -159,7 +185,7 @@ body {
     font-size: 15px !important;
     line-height: 25px !important;
     text-align: justify !important;
-    color: yellow !important;
+    color: navy !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -176,14 +202,14 @@ body {
 
 .comprehensive h4{
     font-size: 35px !important;
-    color: yellow !important;
+    color: white !important;
     font-family: 'Montserrat', sans-serif !important;
     text-transform: capitalize;
     font-weight: bold;
 }
 
 .comprehensive p{
-    color: yellow !important;
+    color: white !important;
     text-align: justify !important;
     font-family: 'Montserrat', sans-serif;
     line-height: 25px;
@@ -192,7 +218,7 @@ body {
 
 
 .dial-group i {
-    color: navy;
+    color: white;
 }
 
 

@@ -67,7 +67,8 @@ body {
 
 .header-container h1 {
     color: white !important;
-    font-family: 'Roboto Slab', serif !important;
+    font-weight: bold;
+    font-family: 'Poppins', serif !important;
     font-size: 50px !important;
 }
 
@@ -85,18 +86,19 @@ body {
 
 /* Streamline Segment Style */
 .streamline {
-   background-color: #285a94;
+   background-color: white;
 }
 
 .streamline h3 {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     text-align: center !important;
-    color: white !important;
+    color: navy !important;
 }
 
 .streamline p {
     font-size: 17px;
+    color: navy;
     font-family: 'Montserrat', sans-serif;
 }
 /* Streamline Segment Style */
@@ -110,15 +112,18 @@ body {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     text-align: center !important;
+    color: white;
 }
 
 .real-time p {
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .real-time li {
     font-size: 17px;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 /* Real Time */
@@ -132,7 +137,7 @@ body {
 
 /* Feature of App */
 .safety-app{
-    background-color: #285a94;
+    background-color: white;
  }
 
 
@@ -140,12 +145,12 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color: navy;
  
  }
  
  .safety-app i {
-     color: rgb(241, 241, 241);
+     color: navy;
  }
  
  
@@ -153,7 +158,7 @@ body {
      list-style-type: none;
      text-align: right !important;
      line-height: 25px;
-     color: white;
+     color: navy;
  
  }
 
@@ -165,7 +170,7 @@ body {
      list-style-type: none;
      text-align: left;
      line-height: 25px;
-     color: white;
+     color: navy;
  }
 /* Feature of App */
 
@@ -207,12 +212,12 @@ body {
 /* Ehnace */
 
 .enhance {
-    background-color: #285a94;
+    background-color: white;
 }
 
 
 .enhance h3 {
-    color: white;
+    color: navy;
     line-height: 40px;
     font-size: 30px !important;
     font-family: 'Montserrat', sans-serif;
@@ -220,7 +225,7 @@ body {
 }
 
 .enhance p {
-    color: white;
+    color: navy;
     font-size: 17px;
     line-height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -229,6 +234,7 @@ body {
 .our-panic p {
     font-size: 17px;
     text-align: justify;
+    color: white;
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -258,6 +264,7 @@ body {
     min-height: 60vh;
     width: 80%;
     margin: 0 auto;
+    color: navy;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -23,15 +23,16 @@
     // echo "The route or filename is: $route";
  
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
+    <link rel="icon" type="image/x-icon" href="<?php echo $logos[0]['small'] ?>">
+    <!-- CSS source file -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+     
     <?php if($route=='about-us.php'){ ?>
       <link rel="stylesheet" href="aboutus.css">
       <?php }else if($route=='industry.php'){?>   
@@ -74,17 +75,8 @@
           <link rel="stylesheet" href="iot.css">
           <?php
         }?> 
-        
-        
-          
-    <!-- CSS source file -->
-    <link rel="stylesheet" href="index.css">
-
-    
-
     <!-- REMIXICONS -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="<?php echo $logos[0]['small'] ?>">
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,7 +109,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0" style="z-index: 1;">
         <div class="container-fluid">
   
-          <a class="navbar-brand" href="./">
+        <a class="navbar-brand" href="./">
             <img src="<?php echo $logos[0]['medium'] ?>" alt="logo" style="height: 100px; width: 98px;">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -129,54 +121,55 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
            
               <li class="nav-item ms-sm-5">
-                <a class="nav-link active" aria-current="page" href="about-us.php">About Us</a>
+                <a class="nav-link active" aria-current="page" href="about-us.php" style="color: yellow; font-family: 'Montserrat', sans-serif;">About Us</a>
               </li>
 
               <li class="nav-item ms-sm-5">
-                <a class="nav-link active" href="./#services">Services</a>
+                <a class="nav-link active" href="./#services" style="color: yellow; font-family: 'Montserrat', sans-serif;">Services</a>
               </li>
 
               <li class="nav-item dropdown ms-sm-5">
-                <a class="nav-link dropdown-toggle active" href="industry.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style="color: yellow; font-family: 'Montserrat', sans-serif;" class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Industries
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Primary Sector</a></li>
-                  <li><a class="dropdown-item" href="#">Law Enforcement Agency</a></li>
-                  <li><a class="dropdown-item" href="#">Mining Oil & Gas</a></li>
-                  <li><a class="dropdown-item" href="#">Construction & Engineering</a></li>
-                  <li><a class="dropdown-item" href="#">Manufacturing</a></li>
-                  <li><a class="dropdown-item" href="#">Utilities</a></li>
-                  <li><a class="dropdown-item" href="industry.php" style="color: blue;">View all Industries</a></li>
+                <ul class="dropdown-menu" style="height: auto; background-color: #285a94;">
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Primary Sector</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Law Enforcement Agency</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Mining Oil & Gas</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Construction & Engineering</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Manufacturing</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="#">Utilities</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat', sans-serif; font-size: .8em;" class="dropdown-item" href="industry.php" style="color: blue;">View all Industries</a></li>
                 </ul>
               </li>
 
               
               <li class="nav-item dropdown ms-sm-5">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style="color: yellow; font-family: 'Montserrat', sans-serif;" class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Solutions
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="enterprise-safety.php">Enterprise Safety Platform</a></li>
-                  <li><a class="dropdown-item" href="personal-safety-app.php">Personal App Safety</a></li>
-                  <li><a class="dropdown-item" href="journey-management.php">Journey Management</a></li>
-                  <li><a class="dropdown-item" href="dial.php">Dial 24/7 Risk Assessment</a></li>
-                  <li><a class="dropdown-item" href="monitoring.php">24/7 Monitoring</a></li>
-                  <li><a class="dropdown-item" href="lone.php">Lone Worker</a></li>
+                <ul style="background-color: #285a94;" class="dropdown-menu">
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="enterprise-safety.php">Enterprise Safety Platform</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="personal-safety-app.php">Personal App Safety</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="journey-management.php">Journey Management</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="dial.php">Dial 24/7 Risk Assessment</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="monitoring.php">24/7 Monitoring</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="lone.php">Lone Worker</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item fw-bold" href="iot.php" style="color: red;">Deep learning IoT and Data</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Secure</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Dial</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Track</a></li>
-                  <li><a class="dropdown-item" href="#" style="color: blue;">Dial-ThreatHunter</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"  class="dropdown-item fw-bold" href="iot.php" style="color: red;">Deep learning IoT and Data</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="#" style="color: blue;">I-Secure</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;"class="dropdown-item" href="#" style="color: blue;">I-Dial</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="#" style="color: blue;">I-Track</a></li>
+                  <li><a style="color: yellow; font-family: 'Montserrat'; font-size: .8em;" class="dropdown-item" href="#" style="color: blue;">Dial-ThreatHunter</a></li>
             
 
                 </ul>
+ 
               </li>
 
               <li class="nav-item ms-sm-5">
-                <a class="nav-link active" href="./#contact">Contact</a>
+                <a class="nav-link active" href="#contact" style="color: yellow; font-family: 'Montserrat', sans-serif;">Contact</a>
               </li>
               
 
@@ -184,18 +177,12 @@
 
             <div class="ms-auto">
                 
-                <button class="req-btn px-4 py-2 me-3" style="background-color: black; border: 1px solid lightgray;
-                border-top-left-radius: 9px;
-                border-top-right-radius: 9px;
-                border-bottom-left-radius: 9px;">
-                    <a href="crm.php" >Request Demo</a>
+                <button style="background-color: yellow; border-radius: 5px;" class="req-btn px-4 py-2 me-3">
+                    <a style="color: black; font-family: 'Montserrat', sans-serif;" href="crm.php">Request Demo</a>
                 </button>
              
-                <button class="req-btn px-4 py-2 me-5" style="background-color: black; border: 1px solid lightgray;
-                border-top-left-radius: 9px;
-                border-top-right-radius: 9px;
-                border-bottom-left-radius: 9px;">
-                    <a href="https://dial24-7portal.com/login" >Log In</a>
+                <button style="background-color: yellow; border-radius: 5px;" class="req-btn px-4 py-2 me-5">
+                    <a style="color: black;font-family: 'Montserrat', sans-serif;" href="https://dial24-7portal.com/login" >Log In</a>
                 </button>
             </div>
           </div>

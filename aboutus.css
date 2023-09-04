@@ -53,12 +53,12 @@ p {
 
 /* Header */
 .head {
-    background-color: #285a94 !important;
+    background-color: navy !important;
 }
 .head h1 {
     font-size: 60px;
     font-weight: bold;
-    font-family: 'Roboto Slab', serif !important;
+    font-family: 'Montserrat', serif !important;
 }
 /* Header */
 

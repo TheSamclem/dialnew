@@ -109,7 +109,8 @@ body {
 
 /* localized  */
 .localize {
-    background-color: rgb(10, 56, 75);
+    background-color: navy;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -156,7 +157,7 @@ body {
 
 
 .dial {
-    background-color: #285a94;
+    background-color: navy;
 }
 .dial p {
     font-size: 17px;
@@ -183,11 +184,12 @@ body {
 
 
 .dial-group {
-    background-color: #285a94;
+    background-color: white;
+    color: navy;
 }
 
 .dial-group h3 {
-    color: black;
+    color: navy;
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;
 }

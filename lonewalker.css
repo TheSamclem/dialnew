@@ -101,13 +101,14 @@ body {
     line-height: 40px !important;
     font-size: 30px !important;
     font-weight: bold !important;
-    color: black !important;
+    color: navy !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
 
 .help p {
     font-size: 20px;
+    color: navy;
     text-align: center !important;
  }
 /* Help */
@@ -119,7 +120,7 @@ body {
 
 /* App feature */
 .app-feature {
-    background-color: #285a94;
+    background-color: navy;
 }
 
 
@@ -134,6 +135,7 @@ body {
 
 .app-feature ul  li{
     border-bottom: 2px solid black;
+    margin: 10px;
     background-color: rgb(0, 21, 29);
 }
 /* App feature */
@@ -148,11 +150,13 @@ body {
 .in-house h3 {
     font-size: 30px;
     border-left: 9px solid red;
+    color: navy;
 
 }
 
 .in-house p {
     font-size: 20px;
+    color: navy;
     text-align: justify; 
     line-height: 40px;
 }
@@ -170,6 +174,7 @@ body {
 /* Ai */
 .ai h2 {
     font-size: 40px;
+    color: navy;
     line-height: 60px;
     font-weight: bold;
 
@@ -177,7 +182,7 @@ body {
 
 .ai h4 {
     font-size: 30px;
-    color: green;
+    color: navy;
 
 
 }
@@ -185,6 +190,7 @@ body {
 .ai p {
    font-size: 20px;
    text-align: justify; 
+   color: navy;
    line-height: 40px;
 
 }
@@ -197,7 +203,7 @@ body {
 
 /* Why choose dial 24/7 */
 .why {
-    background-color: #285a94 !important;
+    background-color: navy !important;
 }
 
 .why h3{
@@ -244,7 +250,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     line-height: 40px;
-    color:white;
+    color:navy;
     font-weight: bold;
 }
 
@@ -268,7 +274,7 @@ body {
 }
 
 .app-feature-2 i {
-    color: rgb(255, 208, 0);
+    color: yellow;
 }
 
 
@@ -278,7 +284,8 @@ body {
 
 /* Footer Style Starts herw */
 .footer {
-    background-color: #285a94;
+    background-color: navy;
+    border-top: 1px solid #fff;
 }
 
 .footer h5{

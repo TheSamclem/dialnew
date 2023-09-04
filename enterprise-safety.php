@@ -41,7 +41,7 @@
                         border-top-left-radius: 9px;
                         border-top-right-radius: 9px;
                         border-bottom-left-radius: 9px;">
-                            <a href="#" >Request Demo</a>
+                            <a href="crm.php" >Request Demo</a>
                         </button>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             border-top-left-radius: 9px;
                             border-top-right-radius: 9px;
                             border-bottom-left-radius: 9px;">
-                             <a href="#" >Talk to Sales</a>
+                             <a href="crm.php" >Talk to Sales</a>
                         </button>
                     </div>
 
@@ -232,7 +232,7 @@
                     border-top-left-radius: 9px;
                     border-top-right-radius: 9px;
                     border-bottom-left-radius: 9px;">
-                        <a href="#" >Request Demo</a>
+                        <a href="crm.php" >Request Demo</a>
                     </button>
                 </div>
             </div>
@@ -267,7 +267,7 @@
                     border-top-left-radius: 9px;
                     border-top-right-radius: 9px;
                     border-bottom-left-radius: 9px;">
-                    <a href="#" >Request Demo</a>
+                    <a href="crm.php" >Request Demo</a>
                  </button>
                  </center>
                 </div>
@@ -476,7 +476,7 @@
                         border-top-left-radius: 9px;
                         border-top-right-radius: 9px;
                         border-bottom-left-radius: 9px;">
-                        <a href="#" >Request Demo</a>
+                        <a href="crm.php" >Request Demo</a>
                     </button>
               
                 </div>
@@ -845,7 +845,7 @@
                         border-top-left-radius: 9px;
                         border-top-right-radius: 9px;
                         border-bottom-left-radius: 9px;">
-                            <a href="#" >Contact Us</a>
+                            <a href="./#contact" >Contact Us</a>
                         </button>
                 </div>
             </div>

@@ -69,14 +69,15 @@ body{
 
 .header-container h1 {
     color: white !important;
-    font-family: 'Roboto Slab', serif !important;
+    font-family: 'Montserrat', serif !important;
     font-size: 55px !important;
+    font-weight: bold;
 }
 
 .header-container p {
-    color: ghostwhite;
-    font-size: 22px;
-    line-height: 35px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,10 +87,12 @@ body{
 
 /* Headter Style Ends */
 .solution-text{
-    background-color: #285a94;
+    background-color: white;
 }
 .solution-text h2 {
+    color: navy;
     line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -120,11 +123,11 @@ body{
 
 .card {
 
-    background-color: #285a94 !important;
+    background-color: navy !important;
 }
 
 .card p {
-    color: ghostwhite;
+    color: white;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     display: flex !important;
@@ -166,11 +169,11 @@ body{
 
 /* Our Approach Style */
 .approach {
-  background-color: #285a94;
+  background-color: navy;
 }
 
 .approach h1 {
-    font-family: 'Roboto Slab', serif !important;
+    font-family: 'Montserrat', serif !important;
     font-weight: bold !important;
     text-align: center !important;
     color: white !important;
@@ -179,7 +182,7 @@ body{
 .approach p {
     text-align: center !important;
     line-height: 35px !important;
-    font-size: 17px !important;
+    font-size: 15px !important;
     font-family: 'Montserrat', sans-serif !important;
     color: white !important;
 } 
@@ -192,12 +195,13 @@ body{
 }
 
 .elevate h2 {
-    font-size: 35px !important;
+    font-size: 28px !important;
     font-weight: bolder;
+    text-transform: capitalize;
 }
 
 .elevate p {
-    font-size: 23px;
+    font-size: 15px;
 }
 /* Elevate */
 
@@ -205,13 +209,14 @@ body{
 
 /* Path */
 .path {
-    background-color: #285a94 !important;
+    background-color: white !important;
   }
 
 .path h1 {
     font-size: 35px !important;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    color: white;
+    color: navy;
 }
 
 /* Group icons */
@@ -255,7 +260,8 @@ body{
 .custom p {
     color: white;
     line-height: 50px;
-    font-size: 17px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Custom Style Ends */
 
@@ -263,6 +269,7 @@ body{
 .comprehensive h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
+    color: navy;
     text-align: center;
 
 }
@@ -288,7 +295,7 @@ body{
 
 /* Unlock */
 .unlock {
-   background-color: #285a94;
+   background-color: navy;
 
 }
 
@@ -318,7 +325,7 @@ body{
 
 /* Empowerment Style starts here */
 .empowerment {
-    background-color: #285a94;
+    background-color: navy;
  
  }
  
@@ -362,6 +369,7 @@ body{
 
 
 .faq-section{
+    color: navy;
     min-height: 60vh;
     width: 80%;
     margin: 0 auto;

@@ -103,7 +103,9 @@ body {
     transition: .4s;
 }
 
-
+.comprehensive {
+    color: navy;
+}
 
 .comprehensive h2 {
     line-height: 60px;
@@ -114,6 +116,10 @@ body {
     line-height: 30px;
     font-size: 18px;
 
+}
+
+.experience {
+    color: navy;
 }
 
 .experience h1 {
@@ -133,10 +139,12 @@ body {
     font-size: 37px;
     line-height: 50px;
     text-align: center;
-    color: lightgray;
+    color: white;
 }
 
-
+.safety-app {
+    color: navy;
+}
 
 .safety-app h2 { 
    text-align: center;
@@ -170,7 +178,8 @@ body {
 }
 
 .curious {
-    background-color: gainsboro;
+    background-color: white;
+    border-bottom: 2px solid #fff;
 }
 .curious p {
     line-height: 30px;
@@ -182,7 +191,7 @@ body {
 
 /* Footer Style Starts herw */
 .footer {
-    background-color: #285a94;
+    background-color: navy;
 }
 
 .footer h5{
